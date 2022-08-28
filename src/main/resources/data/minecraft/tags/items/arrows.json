@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "explosivearrows:atomic_arrow",
+        "explosivearrows:drill_arrow",
+        "explosivearrows:explosive_arrow" 
+    ]
+}

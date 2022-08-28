@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "explosivearrows:drill_arrow"
+        },
+        {
+            "item": "beacon"
+        }
+    ],
+    "result": {
+        "item": "explosivearrows:atomic_arrow"
+    }
+}

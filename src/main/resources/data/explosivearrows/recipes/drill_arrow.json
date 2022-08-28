@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "explosivearrows:explosive_arrow"
+        },
+        {
+            "item": "netherite_pickaxe"
+        }
+    ],
+    "result": {
+        "item": "explosivearrows:drill_arrow"
+    }
+}

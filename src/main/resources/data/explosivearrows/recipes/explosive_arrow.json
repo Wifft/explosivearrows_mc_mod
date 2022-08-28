@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tnt"
+        },
+        {
+            "item": "arrow"
+        }
+    ],
+    "result": {
+        "item": "explosivearrows:explosive_arrow"
+    }
+}
