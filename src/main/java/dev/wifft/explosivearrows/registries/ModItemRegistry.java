@@ -1,10 +1,12 @@
 package dev.wifft.explosivearrows.registries;
 
 import dev.wifft.explosivearrows.ExplosiveArrows;
-import dev.wifft.explosivearrows.items.AtomicArrowItem;
-import dev.wifft.explosivearrows.items.DrillArrowItem;
-import dev.wifft.explosivearrows.items.ExplosiveArrowItem;
 
+import dev.wifft.explosivearrows.objects.items.ores.DeepslateUranititeOre;
+import dev.wifft.explosivearrows.objects.items.projectiles.AtomicArrowItem;
+import dev.wifft.explosivearrows.objects.items.projectiles.DrillArrowItem;
+import dev.wifft.explosivearrows.objects.items.projectiles.ExplosiveArrowItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 
@@ -31,6 +33,11 @@ public class ModItemRegistry
     public static final RegistryObject<Item> EXPLOSIVE_ARROW = ITEMS.register(
         ExplosiveArrowItem.ITEM_ID,
         () -> new ExplosiveArrowItem(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT), 1.5f)
+    );
+    
+    public static final RegistryObject<Item> DEEPSLATE_URANITITE_ORE = ITEMS.register(
+        DeepslateUranititeOre.ITEM_ID,
+        () -> new DeepslateUranititeOre(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS))
     );
     
     public static void register(IEventBus eventBus)

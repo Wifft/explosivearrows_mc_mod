@@ -1,27 +1,22 @@
-package dev.wifft.explosivearrows.items;
+package dev.wifft.explosivearrows.objects.items.projectiles;
 
-import dev.wifft.explosivearrows.entities.projectile.DrillArrow;
-
+import dev.wifft.explosivearrows.objects.entities.projectiles.AtomicArrow;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-
 import net.minecraft.world.entity.projectile.AbstractArrow;
-
 import net.minecraft.world.item.ArrowItem;
 import net.minecraft.world.item.ItemStack;
-
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.Enchantments;
-
 import net.minecraft.world.level.Level;
 
-public class DrillArrowItem extends ArrowItem
+public class AtomicArrowItem extends ArrowItem
 {
-    public static final String ITEM_ID = "drill_arrow";
+    public static final String ITEM_ID = "atomic_arrow";
 
     public final float damage;
 
-    public DrillArrowItem(Properties properties, float damage)
+    public AtomicArrowItem(Properties properties, float damage)
     {
         super(properties);
 
@@ -31,7 +26,7 @@ public class DrillArrowItem extends ArrowItem
     @Override
     public AbstractArrow createArrow(Level level, ItemStack stack, LivingEntity entity)
     {
-        DrillArrow arrow = new DrillArrow(entity, level, this);
+        AtomicArrow arrow = new AtomicArrow(entity, level, this);
         arrow.setBaseDamage(this.damage);
 
         return arrow;
@@ -43,7 +38,7 @@ public class DrillArrowItem extends ArrowItem
         int enchantmentLevel = EnchantmentHelper.getTagEnchantmentLevel(Enchantments.INFINITY_ARROWS, bow);
 
         return enchantmentLevel > 0 
-            ? this instanceof DrillArrowItem
+            ? this instanceof AtomicArrowItem
             : false; 
     }
 }

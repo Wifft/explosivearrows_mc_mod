@@ -1,6 +1,6 @@
 package dev.wifft.explosivearrows.renderers;
 
-import dev.wifft.explosivearrows.entities.projectile.ExplosiveArrow;
+import dev.wifft.explosivearrows.objects.entities.projectiles.ExplosiveArrow;
 
 import net.minecraft.client.renderer.entity.ArrowRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;

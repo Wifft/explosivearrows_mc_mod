@@ -1,5 +1,7 @@
 {
+    "block.explosivearrows.uranitite_deepslate_or e": "Uranitite deepslate ore",
     "item.explosivearrows.atomic_arrow": "Atomic arrow",
     "item.explosivearrows.drill_arrow": "Drill arrow",
-    "item.explosivearrows.explosive_arrow": "Explosive arrow"
+    "item.explosivearrows.explosive_arrow": "Explosive arrow",
+    "item.explosivearrows.uranitite_deepslate_ore": "Uranitite deepslate ore"
 }

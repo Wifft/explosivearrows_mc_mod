@@ -1,8 +1,10 @@
 package dev.wifft.explosivearrows.renderers;
 
-import dev.wifft.explosivearrows.entities.projectile.AtomicArrow;
+import dev.wifft.explosivearrows.objects.entities.projectiles.AtomicArrow;
+
 import net.minecraft.client.renderer.entity.ArrowRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+
 import net.minecraft.resources.ResourceLocation;
 
 public class AtomicArrowRenderer extends ArrowRenderer<AtomicArrow>

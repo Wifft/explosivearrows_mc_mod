@@ -1,5 +1,7 @@
 {
+    "block.explosivearrows.deepslate_uranitite_ore": "Mena de uranitita",
     "item.explosivearrows.atomic_arrow": "Flecha atómica",
     "item.explosivearrows.drill_arrow": "Flecha perforadora",
-    "item.explosivearrows.explosive_arrow": "Flecha explosiva"
+    "item.explosivearrows.explosive_arrow": "Flecha explosiva",
+    "item.explosivearrows.deepslate_uranitite_ore": "Mena de uranitita"
 }

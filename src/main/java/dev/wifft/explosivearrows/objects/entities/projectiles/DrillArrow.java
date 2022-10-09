@@ -1,4 +1,4 @@
-package dev.wifft.explosivearrows.entities.projectile;
+package dev.wifft.explosivearrows.objects.entities.projectiles;
 
 import dev.wifft.explosivearrows.calculators.OreExplosionDamageCalculator;
 import dev.wifft.explosivearrows.registries.ModEntityTypeRegistry;
@@ -71,7 +71,7 @@ public class DrillArrow extends AbstractArrow
        
         BlockState blockState = this.getLevel().getBlockState(result.getBlockPos());
 
-        if (OreExplosionDamageCalculator.isOre(blockState)) this.discard();
+        if (OreExplosionDamageCalculator.isOre(blockState) || OreExplosionDamageCalculator.isBedrock(blockState)) this.discard();
     }
 
     @Override
@@ -93,8 +93,6 @@ public class DrillArrow extends AbstractArrow
                 Explosion.BlockInteraction.DESTROY
             )
             .clearToBlow();
-
-        if (this.getY() <= -48) this.discard();
     }
 
     @Override

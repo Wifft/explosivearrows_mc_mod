@@ -1,4 +1,4 @@
-package dev.wifft.explosivearrows.entities.projectile;
+package dev.wifft.explosivearrows.objects.entities.projectiles;
 
 import dev.wifft.explosivearrows.registries.ModItemRegistry;
 

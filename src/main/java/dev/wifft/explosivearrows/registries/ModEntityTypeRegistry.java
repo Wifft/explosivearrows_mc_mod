@@ -1,14 +1,14 @@
 package dev.wifft.explosivearrows.registries;
 
 import dev.wifft.explosivearrows.ExplosiveArrows;
-import dev.wifft.explosivearrows.entities.projectile.AtomicArrow;
-import dev.wifft.explosivearrows.entities.projectile.DrillArrow;
-import dev.wifft.explosivearrows.entities.projectile.ExplosiveArrow;
+
+import dev.wifft.explosivearrows.objects.entities.projectiles.AtomicArrow;
+import dev.wifft.explosivearrows.objects.entities.projectiles.DrillArrow;
+import dev.wifft.explosivearrows.objects.entities.projectiles.ExplosiveArrow;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.minecraft.world.entity.EntityType;
-
 import net.minecraft.world.entity.MobCategory;
 
 import net.minecraftforge.eventbus.api.IEventBus;
